@@ -1,5 +1,6 @@
 carpo-logger
 ============
+> School project
 
 Node.JS module: Advanced Logger
 
