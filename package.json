@@ -1,15 +1,28 @@
 {
   "name": "carpo-logger",
   "description": "Node.JS module: Advanced Logger",
+  "main": "./lib/carpo-logger",
+  "author": {
+    "name": "Markoham"
+  },
   "version": "0.1.0",
-  "author": "Markoham",
-  "repository" : {
+  "repository": {
     "type" : "git",
     "url" : "https://github.com/Markoham/carpo-logger.git"
-  }
-  "scripts": {"test": ""}
+  },
+  "bugs": {
+    "url": "https://github.com/Markoham/carpo-logger/issues"
+  },
+  "licenses": [
+    {
+      "type": "CC BY 4.0",
+      "url": "https://github.com/Markoham/carpo-logger/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": ""
+  },
   "private": true,
-  "main": "app.js"
   "os" : [ "linux" ],
   "dependencies": {
   }
