@@ -1,0 +1,16 @@
+{
+  "name": "carpo-logger",
+  "description": "Node.JS module: Advanced Logger",
+  "version": "0.1.0",
+  "author": "Markoham",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Markoham/carpo-logger.git"
+  }
+  "scripts": {"test": ""}
+  "private": true,
+  "main": "app.js"
+  "os" : [ "linux" ],
+  "dependencies": {
+  }
+}
