@@ -33,6 +33,6 @@ function versionPage()
 {
     console.log("Current versio: " + info.version);
     console.log("Copyright (c) 2014 " + info.author.name);
-    console.log("License: " + info.licenses.type);
+    console.log("License: " + info.licenses[0].type);
     process.exit();
 }
