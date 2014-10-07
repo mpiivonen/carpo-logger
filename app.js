@@ -1,4 +1,4 @@
-var currentVersion = "0.1.0";
+var info = require('./package.json');
 
 if(process.argv.length < 3)
 {
@@ -29,8 +29,10 @@ function helpPage()
     process.exit();
 }
 
-function  versionPage()
+function versionPage()
 {
-    console.log("Current versio: " + currentVersion);
+    console.log("Current versio: " + info.version);
+    console.log("Copyright (c) 2014 " + info.author.name);
+    console.log("License: " + info.licenses.type);
     process.exit();
 }
