@@ -1,29 +1,32 @@
 {
-  "name": "carpo-logger",
-  "description": "Node.JS module: Advanced Logger",
-  "main": "./lib/carpo-logger",
-  "author": {
-    "name": "Markoham"
-  },
-  "version": "0.1.0",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Markoham/carpo-logger.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Markoham/carpo-logger/issues"
-  },
-  "licenses": [
-    {
-      "type": "CC BY 4.0",
-      "url": "https://github.com/Markoham/carpo-logger/blob/master/LICENSE"
+    "name": "carpo-logger",
+    "description": "Node.JS module: Advanced Logger",
+    "main": "./lib/carpo-logger",
+    "author": {
+        "name": "Markoham"
+    },
+    "version": "0.1.0",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/Markoham/carpo-logger.git"
+    },
+        "bugs": {
+        "url": "https://github.com/Markoham/carpo-logger/issues"
+    },
+    "licenses": [
+        {
+          "type": "CC BY 4.0",
+          "url": "https://github.com/Markoham/carpo-logger/blob/master/LICENSE"
+        }
+    ],
+    "scripts": {
+        "test": ""
+    },
+    "files": [
+        "LICENSE"
+    ],
+    "private": true,
+    "os" : [ "linux" ],
+    "dependencies": {
     }
-  ],
-  "scripts": {
-    "test": ""
-  },
-  "private": true,
-  "os" : [ "linux" ],
-  "dependencies": {
-  }
 }
