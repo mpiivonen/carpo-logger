@@ -13,7 +13,6 @@ Planned feature
 * Logging levels (emerg, alert, crit, etc.)
 * Facility (local0 to local7)
 * Task runner
-* CI (Wercker or Travis) 
 
 Release
 -------
