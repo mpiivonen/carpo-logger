@@ -1,4 +1,5 @@
 var info = require('./package.json');
+var cli = require('./lib/cli.js');
 
 if(process.argv.length < 3)
 {
@@ -9,31 +10,15 @@ if(process.argv.length < 3)
 
 for(var i = 2, c = process.argv.length; i < c; i++)
 {
-    switch(process.argv[i])
+    switch(process.argv[i].toLowerCase())
     {
         case '-h':
         case '--help':
-            helpPage();
+            cli.help();
             break;
         case '-v':
-        case '-V':
         case '--version':
-            versionPage();
+            cli.version();
             break;
     }
-}
-
-function helpPage()
-{
-    console.log("\t-h, --help\t\tHelp");
-    console.log("\t-v, --version\t\tVersion");
-    process.exit();
-}
-
-function versionPage()
-{
-    console.log("Current versio: " + info.version);
-    console.log("Copyright (c) 2014 " + info.author.name);
-    console.log("License: " + info.licenses[0].type);
-    process.exit();
 }
