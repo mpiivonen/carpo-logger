@@ -23,7 +23,11 @@
         "test": ""
     },
     "files": [
-        "LICENSE"
+        "LICENSE",
+        "changelog.md",
+        "README.md",
+        "app.js",
+        "lib/carpo-logger.js"
     ],
     "private": true,
     "os" : [ "linux" ],

@@ -16,6 +16,7 @@ for(var i = 2, c = process.argv.length; i < c; i++)
             helpPage();
             break;
         case '-v':
+        case '-V':
         case '--version':
             versionPage();
             break;
