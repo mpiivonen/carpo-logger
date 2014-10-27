@@ -2,6 +2,8 @@ carpo-logger
 ============
 > School project
 
+[![wercker status](https://app.wercker.com/status/634866230fc176768624a0f3c656f435/m "wercker status")](https://app.wercker.com/project/bykey/634866230fc176768624a0f3c656f435)
+
 Node.JS module: Advanced Logger
 
 Planned feature
