@@ -4,7 +4,8 @@ carpo-logger
 
 Node.JS module: Advanced Logger
 
-# Planned feature
+Planned feature
+---------------
 * Custom file logging
 * Unix system logger (syslog, logger)
 * Logging levels (emerg, alert, crit, etc.)
@@ -12,8 +13,10 @@ Node.JS module: Advanced Logger
 * Task runner
 * CI (Wercker or Travis) 
 
-# Release
-changelog.md
+Release
+-------
+**v0.1.0** Support for --version, -v and --help, -h options
 
 - - -
+
 [![Creative Commons Attribution 4.0 International Public License](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International Public License")](http://creativecommons.org/licenses/by/4.0/)
