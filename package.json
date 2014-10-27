@@ -1,36 +1,41 @@
 {
-    "name": "carpo-logger",
-    "description": "Node.JS module: Advanced Logger",
-    "main": "./lib/carpo-logger",
-    "author": {
-        "name": "Markoham"
-    },
-    "version": "0.1.0",
-    "repository": {
-        "type" : "git",
-        "url" : "https://github.com/Markoham/carpo-logger.git"
-    },
-        "bugs": {
-        "url": "https://github.com/Markoham/carpo-logger/issues"
-    },
-    "licenses": [
-        {
-          "type": "CC BY 4.0",
-          "url": "https://github.com/Markoham/carpo-logger/blob/master/LICENSE"
-        }
-    ],
-    "scripts": {
-        "test": ""
-    },
-    "files": [
-        "LICENSE",
-        "changelog.md",
-        "README.md",
-        "app.js",
-        "lib/carpo-logger.js"
-    ],
-    "private": true,
-    "os" : [ "linux" ],
-    "dependencies": {
+  "name": "carpo-logger",
+  "description": "Node.JS module: Advanced Logger",
+  "main": "./lib/carpo-logger",
+  "author": {
+    "name": "Markoham"
+  },
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Markoham/carpo-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Markoham/carpo-logger/issues"
+  },
+  "licenses": [
+    {
+      "type": "CC BY 4.0",
+      "url": "https://github.com/Markoham/carpo-logger/blob/master/LICENSE"
     }
+  ],
+  "scripts": {
+    "test": "gulp"
+  },
+  "files": [
+    "LICENSE",
+    "changelog.md",
+    "README.md",
+    "app.js",
+    "lib/carpo-logger.js"
+  ],
+  "private": true,
+  "os": [
+    "linux"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-jshint": "^1.8.5"
+  }
 }
