@@ -17,9 +17,8 @@ Planned feature
 
 Release
 -------
-**v0.1.0** Support for --version, -v and --help, -h options
-
-**v0.2.0** Gulp and Wercker added.
+* **v0.2.0** Gulp and Wercker added.
+* **v0.1.0** Support for --version, -v and --help, -h options
 
 - - -
 
