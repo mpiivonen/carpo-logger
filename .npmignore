@@ -3,5 +3,9 @@ dist
 test
 nodelint.cfg
 .npmignore
+.gitignore
 .gitmodules
+.jshintrc
 Makefile
+gulpfile.js
+wercker.js
