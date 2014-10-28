@@ -8,3 +8,10 @@ gulp.task('lint', function()
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
+
+gulp.task('lint2', function()
+{
+    return gulp.src('./app.js')
+    .pipe(jshint())
+    .pipe(jshint.reporter('default'));
+}
