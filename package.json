@@ -20,7 +20,7 @@
     }
   ],
   "scripts": {
-    "test": "gulp"
+    "test": "gulp && nodeunit"
   },
   "files": [
     "LICENSE",
