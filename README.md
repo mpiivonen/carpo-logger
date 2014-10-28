@@ -15,6 +15,12 @@ Planned feature
 * Facility (local0 to local7)
 * Task runner
 
+Gulp plugin plan
+----------------
+Using only with custom file logging
+* backup weekly
+* keep record of last four weeks
+
 Release
 -------
 * **v0.2.0** Gulp and Wercker added.
