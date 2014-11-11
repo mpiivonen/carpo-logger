@@ -7,12 +7,15 @@ carpo-logger
 
 Node.JS module: Advanced Logger
 
-Planned feature
----------------
+Features
+--------
 * Custom file logging
 * Unix system logger (syslog, logger)
-* Logging levels (emerg, alert, crit, etc.)
+* Logging levels (notice, info, err, warning)
 * Facility (local0 to local7)
+
+Planned feature
+---------------
 * Task runner
 
 Gulp plugin plan
