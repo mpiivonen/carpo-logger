@@ -1,7 +1,7 @@
 var jshint = require('gulp-jshint');
 var gulp = require('gulp');
 
-gulp.task('default', ['lint'], function() {});
+gulp.task('default', ['lint','lint2'], function() {});
 gulp.task('lint', function()
 {
     return gulp.src('./lib/*.js')
