@@ -4,6 +4,7 @@ carpo-logger
 
 [![wercker status](https://app.wercker.com/status/634866230fc176768624a0f3c656f435/m "wercker status")](https://app.wercker.com/project/bykey/634866230fc176768624a0f3c656f435)
 [![devDependency Status](https://david-dm.org/markoham/carpo-logger/dev-status.svg)](https://david-dm.org/markoham/carpo-logger#info=devDependencies)
+[![Coverage Status](https://coveralls.io/repos/Markoham/carpo-logger/badge.png)](https://coveralls.io/r/Markoham/carpo-logger)
 
 Node.JS module: Advanced Logger
 
