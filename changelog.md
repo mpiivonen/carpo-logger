@@ -1,6 +1,15 @@
 Changelog
 ========
 
+Release v0.2.1
+------------
+**Added Features**
+
+* Custom file logging
+* Unix system logger (syslog, logger)
+* Logging levels (notice, info, err, warning)
+* Facility (local0 to local7)
+
 Release v0.2.0
 ------------
 Gulp and Wercker added.
