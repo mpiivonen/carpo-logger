@@ -1,4 +1,3 @@
-var info = require('./package.json');
 var cli = require('./lib/cli.js');
 
 if(process.argv.length < 3)
