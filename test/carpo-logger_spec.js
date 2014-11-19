@@ -2,10 +2,18 @@
 
 var mod = require('../lib/carpo-logger');
 
-exports['setMode'] = function(test)
+exports['Mode'] = function(test)
 {
     mod.setMode('a');
-    test.equal(mod.mode, 'a');
-    test.notEqual(mod.mode, 1);
+    test.equal(mod.getMode(), 'a');
+    test.notEqual(mod.getMode(), 1);
+    test.done();
+}
+
+exports['customFile'] = function(test)
+{
+    mod.setCustomLogFile('custom.log');
+    test.equal(mod.getCustomLogFile(), 'custom.log');
+    test.notEqual(mod.getCustomLogFile(), 1);
     test.done();
 }
