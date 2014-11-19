@@ -26,6 +26,15 @@ exports['customFile'] = function(test)
     test.done();
 }
 
+exports['facility'] = function(test)
+{
+    mod.setLoggerFacility('local0');
+    test.equal(mod.getLoggerFacility(), 'local0');
+    test.notEqual(mod.getCustomLogFile(), 'local1');
+    test.done();
+}
+
+
 // FILE
 exports['logFile'] = function(test)
 {
