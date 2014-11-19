@@ -27,5 +27,8 @@ build:
           export COVERALLS_SERVICE_JOB_ID=$WERCKER_BUILD_ID
           export COVERALLS_GIT_BRANCH=$WERCKER_GIT_BRANCH
     - script:
+        name: install Istanbul
+        code: sudo npm install -g istanbul
+    - script:
         name: send to reports to coveralls
         code: make coveralls
