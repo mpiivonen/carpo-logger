@@ -30,5 +30,8 @@ build:
         name: install Istanbul
         code: sudo npm install -g istanbul
     - script:
+        name: install Nodeunit
+        code: sudo npm install -g nodeunit
+    - script:
         name: send to reports to coveralls
         code: make coveralls
