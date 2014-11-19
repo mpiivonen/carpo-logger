@@ -1,6 +1,5 @@
 # Executables
 
-#ISTANBUL_EXEC = ./node_modules/istanbul/lib/cli.js
 COVERALLS_EXEC = ./node_modules/coveralls/bin/coveralls.js
 
 coveralls:
