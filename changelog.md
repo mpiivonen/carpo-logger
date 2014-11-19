@@ -1,6 +1,10 @@
 Changelog
 ========
 
+Release v0.3.0
+------------
+Coverage and unit test added
+
 Release v0.2.1
 ------------
 **Added Features**

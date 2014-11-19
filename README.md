@@ -27,9 +27,9 @@ Using only with custom file logging
 
 Release
 -------
+* **v0.3.0** Coverage and unit test added
 * **v0.2.1** Custom file logging and unix system logger support added.
 * **v0.2.0** Gulp and Wercker added.
-* **v0.1.0** Support for --version, -v and --help, -h options
 
 - - -
 
