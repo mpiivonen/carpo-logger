@@ -20,7 +20,8 @@
     }
   ],
   "scripts": {
-    "test": "gulp && nodeunit"
+    "test": "gulp && nodeunit",
+    "coverage": "istanbul cover nodeunit -- ."
   },
   "files": [
     "LICENSE",
